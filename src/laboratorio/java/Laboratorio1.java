@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Laboratorio1 {
 
-    // 🔹 Variables globales
+    //  Variables globales
     static List<String> estudiantes = new ArrayList<>();
     static List<Double> calificaciones = new ArrayList<>();
     static Scanner scanner = new Scanner(System.in);
@@ -46,7 +46,7 @@ public class Laboratorio1 {
         scanner.close();
     }
 
-    // 🔹 Método para mostrar menú
+    //  Método para mostrar menú
     public static void mostrarMenu() {
         System.out.println("\n1. Agregar estudiante");
         System.out.println("2. Mostrar lista de estudiantes");
@@ -55,7 +55,7 @@ public class Laboratorio1 {
         System.out.println("5. Salir");
     }
 
-    // 🔹 Método para agregar estudiante
+    //  Método para agregar estudiante
     public static void agregarEstudiante() {
 
         System.out.print("Ingrese el nombre del estudiante: ");
@@ -72,7 +72,7 @@ public class Laboratorio1 {
         }
     }
 
-    // 🔹 Método para mostrar estudiantes
+    //  Método para mostrar estudiantes
     public static void mostrarEstudiantes() {
 
         if (estudiantes.isEmpty()) {
@@ -87,7 +87,7 @@ public class Laboratorio1 {
         }
     }
 
-    // 🔹 Método para calcular promedio
+    //  Método para calcular promedio
     public static void calcularPromedio() {
 
         if (calificaciones.isEmpty()) {
@@ -106,7 +106,7 @@ public class Laboratorio1 {
         System.out.println("El promedio de calificaciones es: " + promedio);
     }
 
-    // 🔹 Método actualizado para mostrar todos los estudiantes con nota máxima
+    //  Método actualizado para mostrar todos los estudiantes con nota máxima
     public static void mostrarMayorCalificacion() {
 
         if (calificaciones.isEmpty()) {
@@ -134,7 +134,7 @@ public class Laboratorio1 {
         }
     }
 
-    // 🔹 Método para leer entero con validación
+    //  Método para leer entero con validación
     public static int leerEntero(String mensaje) {
 
         while (true) {
@@ -147,7 +147,7 @@ public class Laboratorio1 {
         }
     }
 
-    // 🔹 Método para leer double con validación
+    //  Método para leer double con validación
     public static double leerDouble(String mensaje) {
 
         while (true) {
