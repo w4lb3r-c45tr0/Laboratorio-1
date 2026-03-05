@@ -5,10 +5,14 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Laboratorio1 {
+<<<<<<< HEAD
 	 static void pausar(Scanner scanner) {
 		    System.out.println("\nPresione ENTER para volver al menú...");
 		    scanner.nextLine();
 }
+=======
+
+>>>>>>> e4d21f6302613f4a75815297cfbc7a4017de3632
     //  Variables globales
     static List<String> estudiantes = new ArrayList<>();
     static List<Double> calificaciones = new ArrayList<>();
