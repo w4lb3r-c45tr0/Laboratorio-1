@@ -189,3 +189,11 @@ El programa original funcionaba correctamente, pero su estructura podía mejorar
 Al aplicar modularización, validaciones y manejo de excepciones, el sistema se volvió más organizado, seguro y profesional.
 
 Además, la mejora para manejar empates en la calificación más alta hizo que el programa sea más preciso y completo.
+
+
+---
+
+# Autores 
+
+Oscar David Castillo Boteo
+Walber Elian Castro Sandoval
